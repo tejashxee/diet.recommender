@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c7650;
+    padding: 15px 30px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-header {
+    background-image: url(https://images.unsplash.com/photo-1556845752-92f6fe9f596d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact-header h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Contact Form Section */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes the full width of its container */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+form button {
+    padding: 15px;
+    background-color: #5c7650;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: block; /* Ensure it's treated as a block element */
+    margin: 0 auto; /* Center the button */
+    max-width: 200px; /* Optional: Set a max-width for the button */
+}
+
+form button:hover {
+    background-color: #4b5d44;
+}
+
+/* Contact Info Section */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.info-card {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.info-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #5c7650;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

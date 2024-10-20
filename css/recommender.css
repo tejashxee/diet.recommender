@@ -1,0 +1,163 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("https://images.unsplash.com/photo-1726997363435-b7fb953170bc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center;
+}
+
+/* Recommender section */
+#recommender {
+    background: rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur(40px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+#recommender h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+   
+    color: #ffffff;
+}
+
+#recommender p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#diet-form input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gender-selection, .diet-preference {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 15px;
+  
+    
+}
+
+.gender-selection label, .diet-preference label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+#diet-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#diet-form button:hover {
+    background-color: #45a049;
+}
+
+
+form label {
+    border: 3px;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+form select, form input {
+    
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #0b0601;
+    border-radius: 5px;
+    font-size: 1px;
+    width: 100%;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #recommender, .diet-plan-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Input and select styling */
+.form-group input, .form-group select {
+    flex: 1; /* Make the input take up the remaining space */
+    padding: 10px;
+    border: 1px solid #bca38c;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Full width */
+}
+
+
+footer {
+    
+    color: white;
+    text-align: center;
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

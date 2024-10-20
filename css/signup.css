@@ -1,0 +1,75 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/13166889/pexels-photo-13166889.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Signup section styling */
+#signup {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 300px;
+    text-align: center;
+}
+
+/* Form elements styling */
+#signup h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#signup form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:#ffffff;
+}
+
+#signup form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#signup form button:hover {
+    background-color: #45a049;
+}
+
+/* Link styling */
+#signup form p {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#signup form a {
+    color: #ffffff;
+    text-decoration: underline;
+   
+    transition: .3s;
+}
+
+#signup form a:hover {
+    color: rgb(186, 186, 186);
+    text-decoration: underline;
+    
+    
+}
