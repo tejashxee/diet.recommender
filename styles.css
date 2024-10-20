@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf3e0;
+    color: #4a3627;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e1d5cb;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4a3627;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: #4a3627;
+    
+}
+
+button {
+    background-color: #a5a58d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b9473;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #bca38c;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.diet-plan-container img {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+
+

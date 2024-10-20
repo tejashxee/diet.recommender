@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Diet Plan</title>
+    <link rel="stylesheet" href="css/dietplan.css">
+    <style>
+        #totalCaloriesBurned {
+            display: none; /* Hide the total calories initially */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Diet Recommender</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="dietResult">
+            <h1>Here's Your Diet Plan:</h1>
+            <div class="meal-container"></div>
+            <div id="mealPlan" class="card-container"></div>
+            <div id="info">
+                <h4>Your BMI: <span id="bmiValue">22.5</span></h4>
+                <h4>Weight Category: <span id="weightCategory">Normal</span></h4>
+                <h4>Total Calories: <span id="totalCalories">1800</span></h4>
+            </div>
+        </div>
+        
+        <div id="workoutSection">
+            <h2> some simple exercises for you to try out !</h2>
+            <div>
+                <label>
+                    <input type="radio" name="exerciseType" value="jump" checked>
+                    Jump Exercises
+                </label>
+                <label>
+                    <input type="radio" name="exerciseType" value="no-jump">
+                    No Jump Exercises
+                </label>
+                
+            </div>
+            <button id="generateWorkoutBtn" onclick="generateWorkoutPlan()">Generate Workout Plan</button>
+            <div id="workoutPlan" class="workout-container"></div>
+        </div>
+        
+
+        
+        <button class="go-back-btn" onclick="goBack()">Go Back</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Diet Recommender. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

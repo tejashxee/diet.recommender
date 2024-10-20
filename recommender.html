@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Recommender</title>
+    <link rel="stylesheet" href="css/recommender.css">
+</head>            
+<body>
+    <header>
+        <div class="logo">Diet Recommender</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>     
+
+    <main>
+        <section id="recommender">
+            <h2>Enter Your Information !</h2>
+            <form id="diet-form" onsubmit="getDietPlan(event)">
+                <div class="form-group">
+                    <label for="age">Enter Your Age:</label>
+                    <input id="age" type="number" placeholder="Age" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="height">Enter Your Height (cm):</label>
+                    <input id="height" type="number" placeholder="Height (cm)" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="weight">Enter Your Weight (kg):</label>
+                    <input id="weight" type="number" placeholder="Weight (kg)" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="gender">Select Your Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select...</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="diet">Select Your Diet Preference:</label>
+                    <select id="diet" name="diet" required>
+                        <option value="">Select...</option>
+                        <option value="veg">Vegetarian</option>
+                        <option value="non-veg">Non-Vegetarian</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <button type="submit">Get Diet Plan</button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Diet Recommender. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
